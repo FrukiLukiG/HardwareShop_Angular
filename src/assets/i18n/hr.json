@@ -1,0 +1,54 @@
+{
+	"language": {
+		"current": "Trenutno se koristi: Hrvatski",
+		"croatian": "Hrvatski",
+		"english": "Engleski"
+	},
+	"currentuser": {
+		"loginas": "Prijavljeni ste kao: ",
+		"logout": "Odjava"
+	},
+	"login": {
+		"hwapp": "Hardver Aplikacija",
+		"title": "Prijava",
+		"username": "Korisničko ime",
+		"password": "Lozinka",
+		"loginButton": "Prijava",
+		"loginError": "Neuspješna prijava! Provjerite podatke i pokušajte ponovo.",
+		"placeholderUsername": "Unesite korisničko ime",
+		"placeholderPass": "Unesite lozinku"
+	},
+	"home": {
+		"title": "Hardver Aplikacija",
+		"hw": "Hardveri"
+	},
+	"hardwares": {
+		"hw": "Hardveri",
+		"newhw": "Unesi novi hardver"
+	},
+	"hwDetail": {
+		"detail": "Detalji o: ",
+		"price": "Cijena: ",
+		"payment": "Ovaj hardver se može kupiti na 6 rata.",
+		"review": "Recenzije za ovaj hardver:",
+		"noReview": "Trenutno nema recenzija za ovaj hardver!",
+		"back": "Nazad"
+	},
+	"hwNew": {
+		"titleOne": "Unos Hardvera",
+		"titleTwo": "Unesi novi hardver",
+		"code": "Šifra: ",
+		"name": "Naziv: ",
+		"type": "Tip: ",
+		"CPU": "Procesor",
+		"GPU": "Grafička kartica",
+		"MBO": "Matična ploča",
+		"RAM": "Radna memorija",
+		"STORAGE": "Pohrana podataka",
+		"OTHER": "Ostalo",
+		"num": "Broj komada na stanju: ",
+		"price": "Cijena: ",
+		"insert": "Unesi hardver",
+		"back": "Nazad"
+	}
+}

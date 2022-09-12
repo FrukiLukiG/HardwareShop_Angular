@@ -1,0 +1,55 @@
+{
+	"language": {
+		"current": "Currently using: English",
+		"croatian": "Croatian",
+		"english": "English"
+	},
+	"currentuser": {
+		"loginas": "Logged in as: ",
+		"logout": "Logout"
+	},
+	"login": {
+		"hwapp": "Hardware App",
+		"title": "Login",
+		"username": "Username",
+		"password": "Password",
+		"loginButton": "Login",
+		"loginError": "Login failed! Check your credentials and try again.",
+		"placeholderUsername": "Type in your username",
+		"placeholderPass": "Type in your password"
+	},
+	"home": {
+		"title": "Hardware Application",
+		"hw": "Hardware"
+	},
+	"hardwares": {
+		"hw": "Hardwares",
+		"newhw": "Insert new hardware"
+	},
+	"hwDetail": {
+		"detail": "Details about: ",
+		"price": "Price: ",
+		"payment": "This hardware can be bought for 6 easy payments.",
+		"review": "Reviews for this hardware:",
+		"noReview": "There are currently no available reviews for this hardware!",
+		"back": "Back"
+	},
+	"hwNew": {
+		"titleOne": "Insert Hardware",
+		"titleTwo": "Insert new Hardware",
+		"code": "Code: ",
+		"name": "Name: ",
+		"type": "Type: ",
+		"CPU": "CPU",
+		"GPU": "GPU",
+		"MBO": "MBO",
+		"RAM": "RAM",
+		"STORAGE": "STORAGE",
+		"OTHER": "OTHER",
+		"num": "Stock: ",
+		"price": "Price: ",
+		"insert": "Insert",
+		"back": "Back"
+	}
+	
+}

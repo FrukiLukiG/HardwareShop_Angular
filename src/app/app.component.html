@@ -1,0 +1,27 @@
+<ul class="navbar-nav">
+  <li class="nav-item">
+    <div ngbDropdown class="d-inline-block">
+      <button class="btn-outline-secondary" id="languageDropdown" ngbDropdownToggle>
+        {{'language.current' | translate}}
+      </button>
+      
+      <div ngbDropdownMenu aria-labelledby="languageDropdown">
+        <button ngbDropdownItem (click)="onLanguageChange('hr')">
+          {{'language.croatian' | translate}}
+        </button>
+        <button ngbDropdownItem (click)="onLanguageChange('en')">
+          {{'language.english' | translate}}
+        </button>
+      </div>
+    </div>
+  </li>
+</ul>
+
+<div class="container-fluid">
+  <div class="w-100 text-end" *ngIf="authenticationService.isUserAuthenticated()">{{'currentuser.loginas' | translate}}
+    <strong>{{authenticationService.getAuthenticatedUserUsername()}}</strong> | <a href="#" (click)="logout()" class="link-primary">{{'currentuser.logout' | translate}}</a>
+  </div>
+  <div class="m-5">
+    <router-outlet></router-outlet>
+  </div>
+</div>
